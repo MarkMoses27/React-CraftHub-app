@@ -1,0 +1,54 @@
+/* ContactBanner.css */
+
+.contact-banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin-right: 20px;
+}
+
+.contact-item span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons svg {
+  font-size: 24px;
+  margin-right: 15px;
+  cursor: pointer;
+  color: #333;
+}
+
+.social-icons svg:hover {
+  color: #FBBD02; /* Change to your preferred hover color */
+}
+
+/* Adding media queries */
+
+@media screen and (max-width: 768px) {
+  .contact-banner-container {
+    display: none;
+  }
+}
+ 

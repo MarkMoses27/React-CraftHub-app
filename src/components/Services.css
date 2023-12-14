@@ -1,0 +1,123 @@
+/* Services.css */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 40px;
+  }
+  
+  .services-content {
+    width: 50%;
+  }
+  
+  .services-content h3 {
+    font-size: 14px;
+  color: #FBBD02; /* Change to your preferred hover color */
+  border: 3px solid #FBBD02; /* Change to your preferred hover color */
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  .services-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .services-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .services-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services-content li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .services-content .highlight {
+    font-size: 1.8rem;
+    color: #000;
+    margin-top: 20px;
+    border: 10px solid #cc9233;;
+    padding: 5px 10px;
+  }
+    
+.services-image img {
+  width: 70%;
+  display: flex;
+  max-height: 300px;
+  flex-direction: column;
+  object-fit: cover;
+  border-radius: 8px;
+  animation: floatAnimation 2s infinite alternate;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.services-image img:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.services-content {
+  width: 50%;
+}
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .services-image img:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .services-content {
+    width: 50%;
+  }
+
+
+  /* media quarries */
+
+  @media screen and (max-width: 768px) {
+    .services {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .services-content {
+      width: 100%;
+    }
+  
+    .services-image {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .services-image img {
+      width: 100%;
+    }
+  }
+
+  

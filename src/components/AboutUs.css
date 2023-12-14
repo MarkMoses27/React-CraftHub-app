@@ -1,0 +1,89 @@
+/* AboutUs.css */
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 40px;
+
+  }
+  
+  .intro-text {
+    width:600px;
+    
+  }
+
+  .intro-text h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro-image img {
+    width: 100%;
+    max-width: 450px;
+    object-fit: cover;
+    border-radius: none;
+    cursor: pointer;
+    
+  }
+  
+  .team-section {
+    margin-top: 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+
+  .team-member .icon{
+    margin: 2px 5px;
+    cursor: pointer;
+  }
+  
+  .team-member img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .team-member img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  .facility-section {
+    margin-top: 40px;
+  }
+  
+  .facility-section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+.facility-section img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Add any additional styling based on your app's design guidelines */
+  

@@ -1,0 +1,94 @@
+/* MiniProject.css */
+
+.mini-project {
+    background-color: #cc9233;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .mini-project h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-right: 40px;
+
+   
+  }
+
+.mini-btn {
+  
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    padding: 23px 60px;
+    font-weight: 700;
+    border-radius: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    width: auto;
+  }
+  
+  .mini-btn i {
+    margin-right: 8px;
+    display: inline-block;
+    transform: rotate(135deg);
+    position: relative;
+    bottom: 1px;
+  }
+  
+  .mini-btn:hover {
+    color: #cc9233;
+  }
+  
+  .mini-btn:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    content: "";
+    background-color: #2b2c2e;
+    transition: 0.5s;
+  }
+  
+  .mini-btn:hover:before {
+    width: 100%;
+  }
+  
+  .mini-btn span {
+    position: relative;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mini-project {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .mini-project h1 {
+      margin-bottom: 20px;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    .mini-btn {
+      position: relative;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    
+  }
